@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav ul .Head{
+    border: solid gray;
+    border-radius: 100px;
+    background-color: gray;
+    display: flex;
+    width: 1900px;
+    height: 150px;
+    padding: 10px 40px; 
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav ul .Start{
+    text-decoration: none;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding: 40px 20px;
+    font-size: x-large;
+    border: solid darkgray;
+    border-radius: 100px;
+    background: darkgray;
+    width: fit-content;
+    height: fit-content;
+}
+
+nav ul .Navi{
+    display: flex;
+    padding: 50px 80px;
+    position: relative; left: 50px;
+    font-weight: 800;
+    font-size: large;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+section .Intro{
+    padding: 100px 100px;
+    margin: 20px 20px;
+}
+
+section .Background{
+    background-image: url(Rog.png);
+    padding: 40px 40px;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+
+section .Intr{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 50px 50px;
+    position: relative; right: 30px; bottom: 500px;
+}
+
+section .Intr{
+    border-radius: 100px;
+    background: darkgray;
+    width: 700px;
+    height: 800px;
+    justify-content: center;
+    position: relative; top: 5px; left: 50px;
+}
+
+.Set img{
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    position: relative; left: 900px; bottom: 600px;
+}
+
+section .Valo{
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+.ValoN{
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    text-align: center;
+    border-radius: 25px;
+    background: gray;
+    width: 150px;
+    height: fit-content;
+    position: relative; left: 45%; right: 50%; top: 0.5px;
+}
+
+section .Back{
+    background-image: url(Valo.jpg);
+    width: 100vw;
+    height: 100vh;
+    min-height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 100px;
+}
+
+.Jett{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    border-radius: 50px;
+    background: gray;
+    width: 600px;
+    height: fit-content;
+    padding: 40px 40px;
+    position: relative; bottom: 900px; left: 1100px;
+}
+
+.Agent img{
+    border-radius: 50px;
+    position: relative; bottom: 1600px; left: 200px;
+}
+
+section .ML{
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+.Mob{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 50px;
+    background: gray;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 10px;
+    position: relative; bottom: 1300px; left: 750px;
+}
+
+section .Mb{
+    background-image: url(ML.png);
+    width: 100vw;
+    height: 100vh;
+    min-height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; bottom: 1300px;
+    border-radius: 100px;
+}
+
+.Leomord{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+    border-radius: 50px;
+    background: gray;
+    width: 600px;
+    height: fit-content;
+    padding: 40px 40px;
+    position: relative; bottom: 2100px; left: 200px;
+}
+
+.Hero img{
+    border-radius: 50px;
+    position: relative; bottom: 2600px; left: 900px;
+}
+
+section .Rainbow{
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+.Six{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 50px;
+    background: gray;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 10px;
+    position: relative; bottom: 2100px; left: 800px;
+}
+
+section .Seige{
+    background-image: url(Bow.png);
+    width: 100vw;
+    height: 110vh;
+    min-height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; bottom: 2100px;
+    border-radius: 100px;
+}
+
+.Mirage{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    border-radius: 50px;
+    background: gray;
+    width: 600px;
+    height: fit-content;
+    padding: 30px 30px;
+    position: relative; bottom: 3100px; left: 1100px;
+}
+
+.Char img{
+    border-radius: 50px;
+    width: 40vw;
+    position: relative; bottom: 3800px; left: 100px;
+}
+
+section .Apex{
+    padding: 20px 20px;
+}
+
+.Leg{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 50px;
+    background: gray;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 10px;
+    position: relative; bottom: 3200px; left: 800px;
+}
+
+section .Wraith{
+    background-image: url(Legends.png);
+    width: 100vw;
+    height: 110vh;
+    min-height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; bottom: 3200px;
+    border-radius: 100px;
+}
+
+.Par{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    border-radius: 50px;
+    background: gray;
+    width: 600px;
+    height: fit-content;
+    padding: 30px 30px;
+    position: relative; bottom: 4100px; left: 200px;
+}
+
+.Champ img{
+    border-radius: 50px;
+    width: 40vw;
+    position: relative; bottom: 4650px; left: 1000px;
+}
+
